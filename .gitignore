@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+
+# Environment variables file (sensitive data)
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask session, logs, and databases
+instance/
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Uploads and cache
+app/static/uploads/
