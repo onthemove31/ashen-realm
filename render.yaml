@@ -1,0 +1,6 @@
+services:
+- type: web
+  name: photography-app
+  env: python
+  buildCommand: ""
+  startCommand: gunicorn run:app
